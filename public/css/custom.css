@@ -98,19 +98,19 @@
 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'AnimalsNormal';
-	color: #999;
-	text-shadow: 0 0 1px #999;
-	position: absolute;
-	width: 220px;
-	height: 220px;
-	line-height: 220px;
-	text-align: center;
-	font-size: 100px;
-	top: 50%;
-	left: 50%;
-	margin: -110px 0 0 -110px;
-	box-shadow: inset 0 0 0 10px #f7f7f7;
-	border-radius: 50%;
+    color: #999;
+    text-shadow: 0 0 1px #999;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    margin: -110px 0 0 -110px;
+    box-shadow: inset 0 0 0 10px #594e4a38;
+    border-radius: 50%;
 }
 
 .sl-slide .content-wrap {
@@ -195,6 +195,57 @@
 	color: #143544;
 	border-color: #143544;
 }
+
+
+/* Bitburner */
+.bitburner .sl-slide-inner {
+	background-color: #171941;
+}
+
+.bitburner a:hover {
+	background-color: #fff;
+	color: #171941;
+	border-color: #fff;
+}
+
+.bitburner .content-wrap {
+	color: #fff;
+}
+
+.bitburner a {
+	color: #fff;
+	border-color: #fff;
+}
+
+.bitburner [data-icon]:after {
+    box-shadow: inset 0 0 0 10px #fff;
+}
+
+
+/* Bitburner */
+.goodweekend .sl-slide-inner {
+	background-color: #fcfbf7;
+}
+
+.goodweekend a:hover {
+	background-color: #054c39;
+	color: #fcfbf7;
+	border-color: #054c39;
+}
+
+.goodweekend .content-wrap {
+	color: #594e4b;
+}
+
+.goodweekend a {
+	color: #054c39;
+	border-color: #054c39;
+}
+
+.goodweekend [data-icon]:after {
+    box-shadow: inset 0 0 0 10px #594e4a38;
+}
+
 
 /* Second Slide */
 .digital-natives .sl-slide-inner,
