@@ -3,7 +3,7 @@
 // Npm Packegaes
 const express = require('express');
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 80
 
 // Server.
 const app = express();
