@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="77px" viewBox="0 0 68 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(2.000000, 3.000000)" stroke="#FFFFFF" stroke-width="6">
+            <polyline id="Path-3" points="0 32 6.29596481 26.6034587 31.5 5 62.5 32"></polyline>
+            <polyline id="Path-4" points="6.5 26.5 6.5 67.5 43 67.5"></polyline>
+            <polyline id="Path-5" points="39.5 12 39.5 0.5 49.5 0.5 49.5 21"></polyline>
+            <path d="M50,71 C43,68.3333333 38.6666667,64.6666667 37,60 C35.3333333,55.3333333 34.8333333,49.5 35.5,42.5 C38.7750042,42.3009153 41.0879025,41.967582 42.4386949,41.5 C43.7894874,41.032418 46.476589,39.032418 50.5,35.5" id="Path-6"></path>
+            <path d="M61.0026596,71 C54.3776596,68.3333333 50.2318262,64.6666667 48.5651596,60 C46.8984929,55.3333333 46.2109929,49.5 46.5026596,42.5 C50.1526638,42.3009153 52.6530621,41.967582 54.0038545,41.5 C55.3546469,41.032418 58.0417486,39.032418 62.0651596,35.5" id="Path-6" transform="translate(54.251330, 53.250000) scale(-1, 1) translate(-54.251330, -53.250000) "></path>
+            <path d="M55,41.5 L55,26" id="Path-7"></path>
+        </g>
+    </g>
+</svg>

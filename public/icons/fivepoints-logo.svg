@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="82px" viewBox="0 0 84 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(2.000000, 2.000000)">
+            <polygon id="Star" fill="#C73727" transform="translate(26.876601, 24.073253) rotate(-6.000000) translate(-26.876601, -24.073253) " points="26.6680143 32.0217394 15.8865676 38.93263 19.6272139 27.2596884 9.76170257 20.0112858 22.4002212 20.0098311 26.4051916 8.95555769 30.9581857 19.9038011 43.9914988 20.2681492 33.6550489 27.728565 37.4778453 39.1909481"></polygon>
+            <polygon id="Star" fill="#C73727" transform="translate(33.601370, 55.823873) rotate(18.000000) translate(-33.601370, -55.823873) " points="33.3927839 63.7723594 22.6113373 70.6832499 26.3519836 59.0103084 16.4864722 51.7619058 29.1249908 51.7604511 33.1299613 40.7061777 37.6829554 51.6544211 50.7162685 52.0187692 40.3798186 59.4791849 44.202615 70.9415681"></polygon>
+            <polygon id="Star" fill="#C73727" transform="translate(58.813061, 35.763767) rotate(186.000000) translate(-58.813061, -35.763767) " points="58.6044745 43.7122536 47.8230278 50.6231442 51.5636741 38.9502026 41.6981628 31.7018 54.3366814 31.7003453 58.3416518 20.6460719 62.894646 31.5943153 75.9279591 31.9586634 65.5915091 39.4190792 69.4143055 50.8814623"></polygon>
+            <ellipse id="Oval" stroke="#C73727" stroke-width="3" cx="40" cy="39" rx="40" ry="39"></ellipse>
+        </g>
+    </g>
+</svg>

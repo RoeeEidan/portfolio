@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="17px" viewBox="0 0 25 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-11" transform="translate(1.000000, -10.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Group-10" transform="translate(0.000000, 11.000000)">
+                <rect id="Rectangle-path" x="0" y="0" width="23" height="15" rx="1.5"></rect>
+                <path d="M15,5 L19,9" id="Shape"></path>
+                <path d="M8,5 L4,9" id="Shape"></path>
+                <path d="M22,0 L12.3820772,6.57308618 C11.5501987,7.14230461 10.4498013,7.14230461 9.61792279,6.57308618 L0,0" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
