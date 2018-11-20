@@ -192,6 +192,11 @@ header .social-icons a:hover {
         font-size: 30px;
     }
 
+    header .content .subtitle {
+        font-size: 18px;
+        padding: 5px 0px 10px;    
+    }
+
     header .quote {
         padding-right: 0px;
         padding-top: 0px;
