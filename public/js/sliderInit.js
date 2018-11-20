@@ -20,26 +20,41 @@ $(function () {
             },
             initEvents = function () {
 
+                // const isTouchable = 'ontouchstart' in window
+
                 // add navigation events
                 const next = function () {
                     slitslider.next();
                     return false;
                 }
+                let nextTouch
                 $navArrows.children(':last')
-                    .on('click', next)
-                    .on('touchstart', next);
+                    .on('click', () => {
+                        !nextTouch && next()
+                    })
+                    .on('touchstart', () => {
+                        nextTouch = true
+                        next()
+                    })
 
+                let prevTouch
                 const prev = function () {
                     slitslider.previous();
                     return false;
                 }
 
                 $navArrows.children(':first')
-                    .on('click', prev)
-                    .on('touchstart', prev)
+                    .on('click', () => {
+                        !prevTouch && prev()
+                    })
+                    .on('touchstart', () => {
+                        prevTouch = true
+                        prev()
+                    })
 
+                    
                 $nav.each(function (i) {
-
+                    let setIndexTouch
                     const setIndex = function (event) {
                         var $dot = $(this);
                         if (!slitslider.isActive()) {
@@ -49,12 +64,16 @@ $(function () {
 
                         slitslider.jump(i + 1);
                         return false;
-
                     }
 
                     $(this)
-                        .on('click', setIndex)
-                        .on('touchstart', setIndex)
+                        .on('click', () => {
+                            !setIndexTouch && setIndex()
+                        })
+                        .on('touchstart', () => {
+                            setIndexTouch = true
+                            setIndex()
+                        })
 
                 });
 

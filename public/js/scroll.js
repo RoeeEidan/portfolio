@@ -6,9 +6,15 @@
         scrollTop: slider.offset().top
     }, 350)
 
+    let didTouch
     $('.my-work-row button')
-        .on('click', scroll)
-        .on('touchstart', scroll)
+        .on('click', () => {
+            !didTouch && scroll()
+        })
+        .on('touchstart', () => {
+            didTouch = true
+            scroll()
+        })
 
     // let timeoutRef
     // $(window).scroll(function () {
