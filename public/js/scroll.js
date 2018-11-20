@@ -11,7 +11,7 @@
         .on('click', () => {
             !didTouch && scroll()
         })
-        .on('touchstart', () => {
+        .on('touchend', () => {
             didTouch = true
             scroll()
         })
