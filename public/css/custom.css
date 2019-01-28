@@ -168,6 +168,8 @@
 /* Custom background colors for slides in first demo */
 
 /* First Slide */
+.gosailaw .sl-slide-inner,
+.gosailaw .sl-content-slice,
 .creative-genius .sl-slide-inner,
 .creative-genius .sl-content-slice {
 	background: #fff;
@@ -177,6 +179,21 @@
 	background-color: #000;
 	color: #fff;
 	border-color: #000;
+}
+
+.gosailaw a:hover {
+	background-color: #143544;
+	color: #fff;
+	border-color: #143544;
+}
+
+.gosailaw .content-wrap {
+	color: #143544;
+}
+
+.gosailaw a {
+	color: #143544;
+	border-color: #143544;
 }
 
 /* Second Slide */
