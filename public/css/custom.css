@@ -11,21 +11,30 @@
 .nav-arrows span {
 	position: absolute;
 	z-index: 2000;
-	top: 50%;
-	width: 60px;
-	height: 60px;
-	margin-top: -30px;
 	cursor: pointer;
 	opacity: .6;
 	transition: opacity 300ms ease-in-out;
+
+	height: 100vh;
+	top: 0;
+	width: 130px;
+	display: flex;
+	align-items: center;
+	padding: 0px 40px;
 }
+
+.nav-arrows span img {
+	width: 50px;
+	height: 50px;
+}
+
 
 .nav-arrows span:hover {
 	opacity: .9;
 }
 
 .nav-arrows span.nav-arrow-prev {
-	left: 3%;
+	left: 0%;
 }
 
 .nav-arrows span.nav-arrow-prev img {
@@ -33,7 +42,7 @@
 }
 
 .nav-arrows span.nav-arrow-next {
-	right: 3%;
+	right: 0%;
 }
 
 .nav-arrows span.nav-arrow-next img {
@@ -670,8 +679,6 @@
 
 
 	/* Custom navigation arrows */
-
-	.nav-arrows span,
 	.nav-arrows span img {
 		width: 35px;
 		height: 35px;
