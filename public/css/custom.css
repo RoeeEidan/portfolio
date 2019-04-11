@@ -26,13 +26,21 @@
 
 .nav-arrows span.nav-arrow-prev {
 	left: 3%;
+}
+
+.nav-arrows span.nav-arrow-prev img {
 	transform: rotate(-90deg);
 }
 
 .nav-arrows span.nav-arrow-next {
 	right: 3%;
+}
+
+.nav-arrows span.nav-arrow-next img {
 	transform: rotate(90deg);
 }
+
+
 
 /* Custom navigation dots */
 
@@ -615,21 +623,22 @@
 	}
 
 	.sl-slide .content-wrap h2 {
-		font-size: 22px;
-		letter-spacing: 2px;
-		padding: 20px 0px;
-		/* margin: 0px -6%; */
+		font-size: 18px;
+		letter-spacing: 1px;
+		padding: 15px 0px;
 	}
 
 	.sl-slide .content-wrap .role {
-		font-size: 18px;
+		font-size: 14px;
 		letter-spacing: 1px;
 	}
 
 	.sl-slide a {
 		padding: 10px 0px;
-		font-size: 14px;
-		height: 45px;
+		font-size: 12px;
+		height: 40px;
+		max-width: 220px;
+		margin-top: 15px;
 	}
 
 	.sl-slide img {
@@ -664,7 +673,37 @@
 
 	.nav-arrows span,
 	.nav-arrows span img {
-		width: 40px;
-		height: 40px;
+		width: 35px;
+		height: 35px;
 	}
+
+	.nav-arrows span {
+		height: 100vh;
+		top: 0;
+		margin-top: 0;
+		width: 45px;
+		display: flex;
+		align-items: center;
+		padding: 0px 5px;
+	}
+
+
+	.nav-arrows span.nav-arrow-prev {
+		left: 0;
+	}
+
+	.nav-arrows span.nav-arrow-next {
+		right: 0;
+	}
+
+	.nav-dots span {
+		width: 12px;
+		height: 12px;
+	}
+	
+	.nav-dots span.nav-dot-current:after {
+		width: 6px;
+		height: 6px;
+	}
+	
 }
