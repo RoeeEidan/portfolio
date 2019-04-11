@@ -12,35 +12,26 @@
 	position: absolute;
 	z-index: 2000;
 	top: 50%;
-	width: 40px;
-	height: 40px;
-	border: 8px solid #ddd;
-	border: 8px solid rgba(150,150,150,0.4);
-	text-indent: -90000px;
-	margin-top: -40px;
+	width: 60px;
+	height: 60px;
+	margin-top: -30px;
 	cursor: pointer;
-	
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
+	opacity: .6;
+	transition: opacity 300ms ease-in-out;
 }
 
 .nav-arrows span:hover {
-	border-color: rgba(150,150,150,0.9);
+	opacity: .9;
 }
 
 .nav-arrows span.nav-arrow-prev {
-	left: 5%;
-	border-right: none;
-	border-top: none;
+	left: 3%;
+	transform: rotate(-90deg);
 }
 
 .nav-arrows span.nav-arrow-next {
-	right: 5%;
-	border-left: none;
-	border-bottom: none;
+	right: 3%;
+	transform: rotate(90deg);
 }
 
 /* Custom navigation dots */
@@ -593,7 +584,7 @@
 		width: 130px;
 		height: 130px;
 		margin-left: -65px;
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 	}
 
 	[data-icon]:after {
@@ -624,7 +615,7 @@
 	}
 
 	.sl-slide .content-wrap h2 {
-		font-size: 25px;
+		font-size: 22px;
 		letter-spacing: 2px;
 		padding: 20px 0px;
 		/* margin: 0px -6%; */
@@ -638,6 +629,7 @@
 	.sl-slide a {
 		padding: 10px 0px;
 		font-size: 14px;
+		height: 45px;
 	}
 
 	.sl-slide img {
@@ -645,6 +637,8 @@
 		max-height: 70px;
 	}
 
+	.five-points img,
+	.goodweekend img,
 	.digital-natives img,
 	.good-hombres img,
 	.locksmith img,
@@ -654,7 +648,7 @@
 	}
 
 	[data-icon]:after {
-		box-shadow: inset 0 0 0 7px #f7f7f7
+		box-shadow: inset 0 0 0 7px #f7f7f7e6
 	}
 
 	.goodweekend [data-icon]:after {
@@ -663,5 +657,14 @@
 
 	.bitburner [data-icon]:after {
 		box-shadow: inset 0 0 0 7px #fff;
+	}
+
+
+	/* Custom navigation arrows */
+
+	.nav-arrows span,
+	.nav-arrows span img {
+		width: 40px;
+		height: 40px;
 	}
 }
