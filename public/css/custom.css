@@ -230,28 +230,28 @@
 }
 
 
-/* Bitburner */
+/* Good Weekend */
 .goodweekend .sl-slide-inner {
-	background-color: #fcfbf7;
+	background-color: #FCFBF7;
 }
 
 .goodweekend a:hover {
-	background-color: #054c39;
-	color: #fcfbf7;
-	border-color: #054c39;
+	background-color: #173839;
+	color: #FCFBF7;
+	border-color: #173839;
 }
 
 .goodweekend .content-wrap {
-	color: #594e4b;
+	color: #173839;
 }
 
 .goodweekend a {
-	color: #054c39;
-	border-color: #054c39;
+	color: #173839;
+	border-color: #173839;
 }
 
 .goodweekend [data-icon]:after {
-    box-shadow: inset 0 0 0 10px #594e4a38;
+    box-shadow: inset 0 0 0 10px #ecebebe6;
 }
 
 
@@ -656,7 +656,6 @@
 	}
 
 	.five-points img,
-	.goodweekend img,
 	.digital-natives img,
 	.good-hombres img,
 	.locksmith img,
@@ -665,12 +664,16 @@
 		max-height: 50px;
 	}
 
+	.goodweekend img {
+		max-width: 65px;
+	}
+
 	[data-icon]:after {
-		box-shadow: inset 0 0 0 7px #f7f7f7e6
+		box-shadow: inset 0 0 0 7px #ecebebe6
 	}
 
 	.goodweekend [data-icon]:after {
-		box-shadow: inset 0 0 0 7px #594e4a38;
+		box-shadow: inset 0 0 0 7px #ecebebe6;
 	}
 
 	.bitburner [data-icon]:after {
