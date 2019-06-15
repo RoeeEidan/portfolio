@@ -273,7 +273,7 @@
 /* Second Slide */
 .landpower .sl-slide-inner,
 .landpower .sl-content-slice {
-	background: #0a0a0a;
+	background: #C49A6C;
 }
 
 .landpower [data-icon]:after,
@@ -283,6 +283,11 @@
 	color: #fff;
 	border-color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.landpower .deco {
+	border-color: #fff;
+	border-color: rgba(255,255,255,0.5);
 }
 
 
