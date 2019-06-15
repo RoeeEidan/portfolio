@@ -270,6 +270,21 @@
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
+/* Second Slide */
+.landpower .sl-slide-inner,
+.landpower .sl-content-slice {
+	background: #0a0a0a;
+}
+
+.landpower [data-icon]:after,
+.landpower .content-wrap,
+.landpower .role,
+.landpower a {
+	color: #fff;
+	border-color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
 
 /* Third Slide */
 .five-points .sl-slide-inner,
@@ -666,6 +681,10 @@
 
 	.goodweekend img {
 		max-width: 65px;
+	}
+	
+	.landpower img {
+		max-height: 60px;
 	}
 
 	[data-icon]:after {
