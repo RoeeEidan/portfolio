@@ -40,21 +40,25 @@
 		window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
 		window['_fs_org'] = 'QP7MP';
 		window['_fs_namespace'] = 'FS';
-		(function(m,n,e,t,l,o,g,y){
-			if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-			g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
-			o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
-			y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-			g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
-			g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
-			g.log = function(a,b) { g("log", [a,b]) };
-			g.consent=function(a){g("consent",!arguments.length||a)};
-			g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-			g.clearUserCookie=function(){};
-		})(window,document,window['_fs_namespace'],'script','user');
+		(function (m, n, e, t, l, o, g, y) {
+			if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; }
+			g = m[e] = function (a, b, s) { g.q ? g.q.push([a, b, s]) : g._api(a, b, s); }; g.q = [];
+			o = n.createElement(t); o.async = 1; o.crossOrigin = 'anonymous'; o.src = 'https://' + _fs_script;
+			y = n.getElementsByTagName(t)[0]; y.parentNode.insertBefore(o, y);
+			g.identify = function (i, v, s) { g(l, { uid: i }, s); if (v) g(l, v, s) }; g.setUserVars = function (v, s) { g(l, v, s) }; g.event = function (i, v, s) { g('event', { n: i, p: v }, s) };
+			g.shutdown = function () { g("rec", !1) }; g.restart = function () { g("rec", !0) };
+			g.log = function (a, b) { g("log", [a, b]) };
+			g.consent = function (a) { g("consent", !arguments.length || a) };
+			g.identifyAccount = function (i, v) { o = 'account'; v = v || {}; v.acctId = i; g(o, v) };
+			g.clearUserCookie = function () { };
+		})(window, document, window['_fs_namespace'], 'script', 'user');
 		FS.identify(Math.random());
 	</script>
 
+
+	<script type="application/javascript">
+		(function (b, o, n, g, s, r, c) { if (b[s]) return; b[s] = {}; b[s].scriptToken = "Xy03MjI0MjE3ODM"; b[s].callsQueue = []; b[s].api = function () { b[s].callsQueue.push(arguments); }; r = o.createElement(n); c = o.getElementsByTagName(n)[0]; r.async = 1; r.src = g; r.id = s + n; c.parentNode.insertBefore(r, c); })(window, document, "script", "https://cdn.oribi.io/Xy03MjI0MjE3ODM/oribi.js", "ORIBI");
+	</script>
 </head>
 
 <body>
@@ -157,7 +161,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 
 				<div class="sl-slide five-points" data-orientation="vertical" data-slice1-rotation="10"
 					data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
@@ -245,7 +249,7 @@
 					</div>
 				</div>
 
-				
+
 
 				<!-- <div class="sl-slide fluid" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25"
 				 data-slice1-scale="2" data-slice2-scale="2">
